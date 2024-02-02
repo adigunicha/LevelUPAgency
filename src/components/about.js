@@ -80,7 +80,7 @@ From advanced algorithms and powerful analytics capabilities to seamless technol
                     <span className=' text-gray-400 text-sm'>OUR TEAM</span>
                 </header>
 
-                 <div className=' grid md:grid-cols-3 gap-20 mt-24 '>
+                 <div className=' grid md:grid-cols-2 lg:grid-cols-3 md:gap-20 lg:gap-20 mt-24 '>
                   <motion.div  initial={{y:20,opacity:0}} whileInView={{y:0,opacity:1}}
               transition={{
                      type:'spring',stiffness:'60', delay:0.2,  duration:1, 

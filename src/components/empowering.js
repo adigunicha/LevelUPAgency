@@ -46,7 +46,7 @@ const Empowering = () => {
             <div className="headers  flex-wrap gap-2 flex justify-center flex-col items-center">
                <h1 className="md:text-4xl  text-2xl font-bold">Empowering Businesses</h1>
             </div>
-            <div className=" flex flex-col md:flex-row pt-3 md:pt-10 ">
+            <div className=" flex flex-col items-center md:flex-row pt-3 md:pt-10 ">
                <div className=" w-11/12 md:w-2/4">
                 <ul className="">
                     <li className="text-2xl md:text-3xl font-bold">Innovation Begins Here</li>
@@ -107,7 +107,7 @@ const Empowering = () => {
             </div>
 
             {/* the second part */}
-            <div className=" flex flex-col-reverse md:flex-row pt-3 md:pt-10 ">
+            <div className=" flex flex-col-reverse items-center md:flex-row pt-3 md:pt-10 ">
             <div className=" md:p-12 pt-6  ">
                     <motion.img  variants={secondvarience} initial="hidden" viewport={{once:true}}  whileInView="visible" className=' md:h-[25.123rem] md:w-[36.88rem] h-[17rem] w-[46rem] md:rounded-tl-[40px] rounded-tl-[10px] rounded-tr-lg rounded-br-lg rounded-bl-lg' src={fb2} alt='heroimg'/>
                  </div>

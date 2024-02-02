@@ -44,19 +44,19 @@ const Navbar = () => {
                 </div>
               </NavLink >
              
-              <div className="flex md:hidden ">
+              <div className="flex lg:hidden ">
                    <NavLink onClick={()=>{setopen(!open)}} className='absolute top-8  right-5'><RiMenu4Fill size={20} /></NavLink>
                    </div>
                  
                  {/* desktop nav */}
-             <div className={ ` hidden sm:h-3 md:flex  pl-3 md:pl-0 space-y-6 md:space-y-0 flex-col md:flex-row md:space-x-6 font-semibold text-xl md:items-center`}>
+             <div className={ ` hidden sm:h-3 lg:flex  pl-3 md:pl-0 space-y-6 md:space-y-0 flex-col md:flex-row md:space-x-6 font-semibold text-xl md:items-center`}>
                  <NavLink className="hover:text-blue-400 ease-in-out duration-150 " to='/'>Home</NavLink>
                  <NavLink className="hover:text-blue-400 ease-in-out duration-150  "  to='/about'>About</NavLink>
                  <NavLink className="hover:text-blue-400 ease-in-out duration-150  "  to='/service'>Services</NavLink>
                  <NavLink className="hover:text-blue-400 ease-in-out duration-150 " to='/contact'>Contact</NavLink>
                 </div> 
 
-               <div className=" md:flex hidden gap-2">
+               <div className=" lg:flex hidden gap-2">
                 <NavLink className="p-3 shadow-2xl bg-sky-600 rounded-lg " to=''>Get started</NavLink>
                  <NavLink className="p-3 shadow-2xl rounded-se-lg rounded-tl-lg border-l-2 border-t-2 " to=''>Login</NavLink>
                 </div> 

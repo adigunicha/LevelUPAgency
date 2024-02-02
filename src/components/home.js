@@ -163,12 +163,12 @@ const Home = () => {
     return ( 
             <div>
             {/* this is the herosection */}
-            <div className=" flex flex-col md:flex-row w-full p-4 pt-32 md:p-11 md:pt-40 bg-[#e0e0e0]  ">
+            <div className=" flex flex-col lg:flex-row w-screen p-4 pt-32 md:p-11 md:pt-40 bg-[#e0e0e0]  ">
                <ul className=" w-11/12 sm:w-11/12 md:w-2/4 ">
                 <li className="tracking-wide text-xs md:text-base flex items-center flex-row gap-1  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 mb-3 to-emerald-600">   <div className="bg-black rounded-lg w-8 h-1 bg-gradient-to-r from-blue-500 to-emerald-300  " ></div>  Unlocking the Power of Digital Presence
                     </li>
                 <motion.div variants={firstvarience} initial="hidden" animate="visible" className=" sm:text-3xl md:text-6xl text-2xl   font-semibold  ">Here you can </motion.div>
-                <motion.li variants={secondvarence} initial="hidden" animate="visible" className=" sm:text-5xl md:text-8xl  text-4xl text-blue-400  font-bold mb-3 ">Level Up Your Business</motion.li>
+                <motion.li variants={secondvarence} initial="hidden" animate="visible" className="  lg:text-8xl  text-4xl text-blue-400  font-bold mb-3 ">Level Up Your Business</motion.li>
                 <motion.li variants={thirdvarience} initial="hidden" animate="visible"  className="text-md mb-6  md:w-3/4" >At LevelUp Agency, we craft digital experiences that captivate, inspire, and convert. Elevate your brand to new heights with our innovative web design, development, and digital marketing solutions.</motion.li>
                  <motion.li  variants={thirdvarience} initial="hidden" animate="visible" className=' text-sm mb-10'>      
                      <NavLink className= "  px-7 py-3 shadow-2xl rounded-se-lg rounded-tl-lg border-l-2 border-t-2 " to=''>Projects</NavLink>
@@ -188,7 +188,7 @@ const Home = () => {
                </ul>
                  
                  <motion.div variants={imgvarience} initial="hidden" animate="visible" className=" md:p-10 pt-6  ">
-                    <img className=' md:h-[28.123rem] md:w-[36.88rem] h-[19rem] w-[50rem] md:rounded-tl-[130px] rounded-tl-[60px] rounded-tr-lg rounded-br-lg rounded-bl-lg' src={Heromig} alt='heroimg'/>
+                    <img className=' lg:h-[28.123rem] lg:w-[36.88rem] h-[19rem] w-[50rem] lg:rounded-tl-[130px] rounded-tl-[60px] rounded-tr-lg rounded-br-lg rounded-bl-lg' src={Heromig} alt='heroimg'/>
                  </motion.div>
             </div>
 
@@ -203,7 +203,7 @@ const Home = () => {
                  <header className='flex justify-center items-center'>
                     <span className='md:text-4xl text-2xl font-bold '>Monthly Payment Plan</span>
                  </header>
-                 <div className='grid items-center justify-center mt-10 md:grid-cols-3  md:gap-6 gap-5'>
+                 <div className='grid items-center justify-center mt-10 lg:grid-cols-3 md:grid-cols-2  md:gap-6 gap-5'>
                    <motion.div variants={firstcomponent} initial="hidden" whileInView="visible" viewport={{once:true}} ><Growth/></motion.div> 
                    <motion.div variants={secondcomponent} initial="hidden" whileInView="visible" viewport={{once:true}} ><Standard/></motion.div>
                   <motion.div variants={thirdcomponent} initial="hidden" whileInView="visible" viewport={{once:true}} ><Enterprice/></motion.div>   
@@ -245,7 +245,7 @@ const Home = () => {
                 opacity:{duration:1}
 
               
-              }} viewport={{once:true}} className='  md:w-[900px] '>
+              }} viewport={{once:true}} className='  lg:w-[900px] '>
              <span className=' font-serif text-xl md:text-3xl'>"I am very happy with the outcome of the first 3 months working with LevelUp Agency, the support is absolutly amazing and the overall revenue has increased by 12%. Amazing!" </span> 
               </motion.div>
 
